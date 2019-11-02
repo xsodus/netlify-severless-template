@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "netlify-lambda": "^1.4.13",
+    "netlify-lambda": "^1.6.3",
     "set-value": "^2.0.1"
   },
   "devDependencies": {},

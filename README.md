@@ -2,15 +2,15 @@
 This is a template project. If you don't know how to create an endpoint on serverless, it will help you.
 
 ## How to run on local
-- Install npm. Below is the example command for IOS
+- Install yarn. Below is the example command for IOS
 
-`$ brew install npm`
+`$ brew install yarn`
 - Go to base directory then install the dependencies:
 
-`$ npm install`
+`$ yarn install`
 - Run netlify serverless by this command:
 
-`$ npm run lambda-serve`
+`$ yarn lambda-serve`
 - Try to call the endpoint via this URL:
 
 http://localhost:9000/hello
@@ -18,7 +18,7 @@ http://localhost:9000/hello
 
 ## How to deploy
 - Pack all source code and denpendency by this command
-`$ npm run lambda-build`
+`$ yarn lambda-build`
 
 - Push all changes in `./lambda` folder to master branch. The Netlify will automatically deploy your source code. 
 You can see the deploy status at `Deploy` menu on Netlify admin page.

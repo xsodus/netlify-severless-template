@@ -8,6 +8,17 @@ This is a template project. If you don't know how to create an endpoint on serve
 - Go to base directory then install the dependencies:
 
 `$ yarn install`
+- Copy the environment file. If you would like to run with develop config, you should type:
+
+`$ yarn lambda-build:<dev,prod>`
+If you would like to run with develop configs, you should type...
+
+`$ yarn lambda-build:dev`
+Or 
+
+`$ yarn lambda-build:prod`
+For running with production configs.
+
 - Run netlify serverless by this command:
 
 `$ yarn lambda-serve`
@@ -18,7 +29,7 @@ http://localhost:9000/hello
 
 ## How to deploy
 - Pack all source code and denpendency by this command
-`$ yarn lambda-build`
+`$ yarn lambda-build:<dev,prod>`
 
 - Push all changes in `./lambda` folder to master branch. The Netlify will automatically deploy your source code. 
 You can see the deploy status at `Deploy` menu on Netlify admin page.
